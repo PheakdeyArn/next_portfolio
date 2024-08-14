@@ -1,6 +1,5 @@
 import { cn } from "@/utils/cn";
 
-
 export const BentoGrid = ({
   className,
   children,
@@ -26,14 +25,14 @@ export const BentoGridItem = ({
   description,
   header,
   icon,
-//   id
+  id
 }: {
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
   header?: React.ReactNode;
   icon?: React.ReactNode;
-//   id: number
+  id: number
 }) => {
   return (
     <div
