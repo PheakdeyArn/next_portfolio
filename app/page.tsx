@@ -1,3 +1,4 @@
+import { Experience } from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
@@ -14,7 +15,8 @@ export default function Home() {
         />
         <Hero />
         <Grid />
-        <Projects />
+        {/* <Projects /> */}
+        <Experience />
       </div>
     </main>
   );
