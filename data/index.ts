@@ -8,8 +8,8 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
-      description: "",
+      title: "End-to-end Development",
+      description: "Design and develop complete web applications and software systems.",
       className: "lg:col-span-2 md:col-span-6 md:row-span-2",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
@@ -18,8 +18,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
-      description: "",
+      title: "Front-end Development",
+      description: "Utilize modern front-end frameworks and technologies.",
       className: "lg:col-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -28,8 +28,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "Back-End Development",
+      description: "Develop server-side logic, define and maintain databases, and integrate various services and APIs using back-end technologies.",
       className: "lg:col-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,21 +38,21 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
+      title: "API Integration",
+      description: "Develop and integrate RESTful APIs and third-party services",
       className: "lg:col-span-1 md:col-span-3 md:row-span-1",
-      imgClassName: "",
+      imgClassName: "absolute right-0 bottom-0 md:w-50 w-50 flex mb-10 mr-5",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "/b4.svg",
+      spareImg: "/grid.svg",
     },
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
-      className: "md:col-span-2 md:row-span-1",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+      title: "Continuous Learning and Adaptation",
+      description: "Stay updated with the latest industry trends, tools, and technologies to continually enhance development skills and apply best practices.",
+      className: "md:col-span-2 md:row-span-2",
+      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 flex mb-8 mr-7",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/b5.svg",
       spareImg: "/grid.svg",
@@ -61,7 +61,7 @@ export const navItems = [
       id: 6,
       title: "Do you want to start a project together?",
       description: "",
-      className: "lg:col-span-3 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-1 md:col-span-1 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
@@ -173,32 +173,36 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
+      position: "Front-End Developer",
+      org: "Intech Dev",
+      date: "April 2024 - Present",
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
+      className: "md:col-span-3",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      position: "Front-End Developer",
+      org: "Intech Dev",
+      date: "August 2022 – April 2024",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      className: "md:col-span-3", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
+    // {
+    //   id: 3,
+    //   title: "Freelance App Dev Project",
+    //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    //   className: "md:col-span-2", // change to md:col-span-2
+    //   thumbnail: "/exp3.svg",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Lead Frontend Developer",
+    //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    //   className: "md:col-span-2",
+    //   thumbnail: "/exp4.svg",
+    // },
   ];
   
   export const socialMedia = [
