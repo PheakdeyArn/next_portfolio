@@ -1,3 +1,4 @@
+import { TimelineDemo } from "@/components/Education";
 import { Experience } from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
@@ -16,7 +17,8 @@ export default function Home() {
         />
         <Hero />
         <Grid />
-        {/* <Projects /> */}
+        <TimelineDemo />
+        <Projects />
         <Experience />
         <Footer />
       </div>
