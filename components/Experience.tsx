@@ -13,12 +13,12 @@ export const Experience = () => {
             <div className="w-full mt-12 flex lg:grid-cols-4 grid-cols-1 gap-10 ">
                 {/* <div className="justify-center bg-white-100 items-center"> */}
                 {workExperience.map((card, index) => (
-                    <div className={cn(
+                    <div  key={card.id} className={cn(
                         "row-span-1 relative rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4  border border-transparent justify-between flex flex-col space-y-4",
                         card.className
                     )}>
                         <Button
-                            key={card.id}
+                           
                             duration={Math.floor(Math.random() * 10000) + 10000}
                             borderRadius='1.75rem'
                             className='flex-1 text-white border-neutral-200 dark:border-slate-800'>
